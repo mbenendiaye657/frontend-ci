@@ -9,7 +9,7 @@ const ROLE_PAGE = { PATIENT: 'patient', MEDECIN: 'medecin' };
 function AuthSide({ title, text }) {
   return (
     <aside className="auth-side">
-      <span className="brand-mark">✚</span>
+      <img className="brand-logo big" src="/logo.svg" alt="" width="56" height="56" />
       <h2>{title}</h2>
       <p>{text}</p>
       <ul>

@@ -21,9 +21,12 @@ export default function OrdonnanceModal({ ord, onClose }) {
     >
       <div className="print-area ordo">
         <div className="ordo-head">
-          <div>
-            <strong className="ordo-brand">e-Santé Sénégal</strong>
-            <div className="muted">Téléconsultation et suivi médical</div>
+          <div className="ordo-id">
+            <img className="brand-logo" src="/logo.svg" alt="" width="44" height="44" />
+            <div>
+              <strong className="ordo-brand">e-Santé Sénégal</strong>
+              <div className="muted">Téléconsultation et suivi médical</div>
+            </div>
           </div>
           <div className="ordo-date">{ord.date ? formatDateLong(ord.date) : ''}</div>
         </div>

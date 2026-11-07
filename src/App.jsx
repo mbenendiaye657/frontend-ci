@@ -84,7 +84,7 @@ export default function App() {
         <header className="navbar">
           <div className="nav-inner">
             <a className="brand" href="#/accueil" aria-label="e-Santé Sénégal, accueil">
-              <span className="brand-mark">✚</span>
+              <img className="brand-logo" src="/logo.svg" alt="" width="38" height="38" />
               <span>
                 e-Santé <b>Sénégal</b>
               </span>

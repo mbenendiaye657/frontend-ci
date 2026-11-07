@@ -1751,3 +1751,27 @@ a {
     padding: 24px;
   }
 }
+
+/* ───── Logo ───── */
+.brand-logo {
+  display: block;
+  border-radius: 11px;
+  box-shadow: 0 4px 12px rgba(15, 139, 109, 0.3);
+  flex-shrink: 0;
+}
+.brand-logo.big {
+  border-radius: 16px;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.55);
+}
+.ordo-id {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+@media print {
+  .brand-logo {
+    box-shadow: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
